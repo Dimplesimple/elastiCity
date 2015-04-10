@@ -1,0 +1,7 @@
+
+Hey guys, here is the something like passwords:
+ 
+CONSUMER_KEY = '3SmJPARDTzUDRvQd8u1wQg'
+CONSUMER_SECRET = 'JRMHsvsodGQDC6QfU3U6PjWv9bY'
+TOKEN = '8JYqL-1cMTLme1Ej9szE9ZNiGvGRC9In'
+TOKEN_SECRET = 'XTptkw2yM-jlod8HDvNTiQ5dhsw'
