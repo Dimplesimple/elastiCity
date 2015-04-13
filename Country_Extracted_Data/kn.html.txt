@@ -1,0 +1,196 @@
+Korea,_North
+
+
+
+  Background:
+  An independent kingdom for much of its long history, Korea was occupied by Japan beginning in 1905 following the Russo-Japanese War. Five years later, Japan formally annexed the entire peninsula. Following World War II, Korea was split with the northern half coming under Soviet-sponsored communist control. After failing in the Korean War (1950-
+  53) to conquer the US-backed Republic of Korea (ROK) in the southern portion by force, North Korea (DPRK), under its founder President KIM Il Sung, adopted a policy of ostensible diplomatic and economic "self-reliance" as a check against outside influence. The DPRK demonized the US as the ultimate threat to its social system through state-funded
+  propaganda, and molded political, economic, and military policies around the core ideological objective of eventual unification of Korea under Pyongyang's control. KIM Il Sung's son, KIM Jong Il, was officially designated as his father's successor in 1980, assuming a growing political and managerial role until the elder KIM's death in 1994. KIM
+  Jong Un was publicly unveiled as his father's successor in September 2010. Following KIM Jong Il's death in December 2011, the regime began to take actions to transfer power to KIM Jong Un and KIM has now assumed many his father's former titles and duties. After decades of economic mismanagement and resource misallocation, the DPRK since the
+  mid-1990s has relied heavily on international aid to feed its population. The DPRK began to ease restrictions to allow semi-private markets, starting in 2002, but then sought to roll back the scale of economic reforms in 2005 and 2009. North Korea's history of regional military provocations; proliferation of military-related items; long-range
+  missile development; WMD programs including tests of nuclear devices in 2006, 2009, and 2013; and massive conventional armed forces are of major concern to the international community. The regime in 2013 announced a new policy calling for the simultaneous development of the North's nuclear weapons program and its economy.
+
+
+
+
+Geography_::Korea,_North
+
+
+
+  Location:
+  Eastern Asia, northern half of the Korean Peninsula bordering the Korea Bay and the Sea of Japan, between China and South Korea
+  Geographic_coordinates:
+  40 00 N, 127 00 E
+  Map_references:
+  Asia
+  Area:
+  total: 120,538 sq km
+  country comparison to the world:  99
+  land: 120,408 sq km
+  water: 130 sq km
+  Area_-_comparative:
+  Area comparison map:
+  Land_boundaries:
+  total: 1,672 km
+  border countries: China 1,416 km, South Korea 238 km, Russia 18 km
+  Coastline:
+  2,495 km
+  Maritime_claims:
+  territorial sea: 12 nm
+  exclusive economic zone: 200 nm
+  note: military boundary line 50 nm in the Sea of Japan and the exclusive economic zone limit in the Yellow Sea where all foreign vessels and aircraft without permission are banned
+  Climate:
+  temperate with rainfall concentrated in summer
+  Terrain:
+  mostly hills and mountains separated by deep, narrow valleys; coastal plains wide in west, discontinuous in east
+  Elevation_extremes:
+  lowest point: Sea of Japan 0 m
+  highest point: Paektu-san 2,744 m
+  Natural_resources:
+  coal, lead, tungsten, zinc, graphite, magnesite, iron ore, copper, gold, pyrites, salt, fluorspar, hydropower
+  Land_use:
+  arable land: 19.08%
+  permanent crops: 1.7%
+  other: 79.22% (2011)
+  Irrigated_land:
+  14,600 sq km (2003)
+  Total_renewable_water_resources:
+  77.15 cu km (2011)
+  Freshwater_withdrawal_(domestic/industrial/agricultural):
+  total: 8.66 cu km/yr (10%/13%/76%)
+  per capita: 360.6 cu m/yr (2005)
+  Natural_hazards:
+  late spring droughts often followed by severe flooding; occasional typhoons during the early fall
+  volcanism: Changbaishan (elev. 2,744 m) (also known as Baitoushan, Baegdu or P'aektu-san), on the Chinese border, is considered historically active
+  Environment_-_current_issues:
+  water pollution; inadequate supplies of potable water; waterborne disease; deforestation; soil erosion and degradation
+  Environment_-_international_agreements:
+  party to: Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Environmental Modification, Hazardous Wastes, Ozone Layer Protection, Ship Pollution
+  signed, but not ratified: Law of the Sea
+  Geography_-_note:
+  strategic location bordering China, South Korea, and Russia; mountainous interior is isolated and sparsely populated
+
+
+
+
+People_and_Society_::Korea,_North
+
+
+
+  Nationality:
+  noun: Korean(s)
+  adjective: Korean
+  Ethnic_groups:
+  racially homogeneous; there is a small Chinese community and a few ethnic Japanese
+  Languages:
+  Korean
+  Religions:
+  traditionally Buddhist and Confucianist, some Christian and syncretic Chondogyo (Religion of the Heavenly Way)
+  note: autonomous religious activities now almost nonexistent; government-sponsored religious groups exist to provide illusion of religious freedom
+  Population:
+  24,851,627 (July 2014 est.)
+  country comparison to the world:  50
+  Age_structure:
+  0-14 years: 21.5% (male 2,709,580/female 2,628,456)
+  15-24 years: 16.3% (male 2,041,861/female 1,997,413)
+  25-54 years: 44% (male 5,465,889/female 5,456,850)
+  55-64 years: 8.6% (male 1,007,667/female 1,127,455)
+  65 years and over: 9.5% (male 826,175/female 1,590,281) (2014 est.)
+  population pyramid:
+  Dependency_ratios:
+  total dependency ratio: 44.9 %
+  youth dependency ratio: 31.1 %
+  elderly dependency ratio: 13.8 %
+  potential support ratio: 7.2 (2014 est.)
+  Median_age:
+  total: 33.4 years
+  male: 31.8 years
+  female: 35 years (2014 est.)
+  Population_growth_rate:
+  0.53% (2014 est.)
+  country comparison to the world:  153
+  Birth_rate:
+  14.51 births/1,000 population (2014 est.)
+  country comparison to the world:  138
+  Death_rate:
+  9.18 deaths/1,000 population (2014 est.)
+  country comparison to the world:  64
+  Net_migration_rate:
+  -0.04 migrant(s)/1,000 population (2014 est.)
+  country comparison to the world:  111
+  Urbanization:
+  urban population: 60.3% of total population (2011)
+  rate of urbanization: 0.63% annual rate of change (2010-15 est.)
+  Major_urban_areas_-_population:
+  PYONGYANG (capital) 2.843 million (2011)
+  Sex_ratio:
+  at birth: 1.05 male(s)/female
+  0-14 years: 1.03 male(s)/female
+  15-24 years: 1.02 male(s)/female
+  25-54 years: 1 male(s)/female
+  55-64 years: 0.94 male(s)/female
+  65 years and over: 0.51 male(s)/female
+  total population: 0.94 male(s)/female (2014 est.)
+  Maternal_mortality_rate:
+  81 deaths/100,000 live births (2010)
+  country comparison to the world:  82
+  Infant_mortality_rate:
+  total: 24.5 deaths/1,000 live births
+  country comparison to the world:  75
+  male: 27.18 deaths/1,000 live births
+  female: 21.68 deaths/1,000 live births (2014 est.)
+  Life_expectancy_at_birth:
+  total population: 69.81 years
+  country comparison to the world:  154
+  male: 65.96 years
+  female: 73.86 years (2014 est.)
+  Total_fertility_rate:
+  1.98 children born/woman (2014 est.)
+  country comparison to the world:  129
+  Contraceptive_prevalence_rate:
+  68.6% (2002)
+  Physicians_density:
+  3.29 physicians/1,000 population (2003)
+  Hospital_bed_density:
+  13.2 beds/1,000 population (2002)
+  Drinking_water_source:
+  improved:
+  urban: 98.9% of population
+  rural: 96.9% of population
+  total: 98.1% of population
+  unimproved:
+  urban: 1.1% of population
+  rural: 3.1% of population
+  total: 1.9% of population (2012 est.)
+  Sanitation_facility_access:
+  improved:
+  urban: 87.9% of population
+  rural: 72.5% of population
+  total: 81.8% of population
+  unimproved:
+  urban: 12.1% of population
+  rural: 27.5% of population
+  total: 18.2% of population (2012 est.)
+  HIV/AIDS_-_adult_prevalence_rate:
+  NA
+  HIV/AIDS_-_people_living_with_HIV/AIDS:
+  NA
+  HIV/AIDS_-_deaths:
+  NA
+  Obesity_-_adult_prevalence_rate:
+  3.9% (2008)
+  country comparison to the world:  173
+  Children_under_the_age_of_5_years_underweight:
+  18.8% (2009)
+  country comparison to the world:  34
+  Education_expenditures:
+  NA
+  Literacy:
+  definition: age 15 and over can read and write
+  total population: 100%
+  male: 100%
+  female: 100% (2008 est.)
+
+
+
+

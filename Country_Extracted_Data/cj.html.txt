@@ -1,0 +1,162 @@
+Cayman_Islands
+
+
+
+  Background:
+  The Cayman Islands were colonized from Jamaica by the British during the 18th and 19th centuries and were administered by Jamaica after 1863. In 1959, the islands became a territory within the Federation of the West Indies. When the Federation dissolved in 1962, the Cayman Islands chose to remain a British dependency.
+
+
+
+
+Geography_::Cayman_Islands
+
+
+
+  Location:
+  Caribbean, three-island group (Grand Cayman, Cayman Brac, Little Cayman) in Caribbean Sea, 240 km south of Cuba and 268 km northwest of Jamaica
+  Geographic_coordinates:
+  19 30 N, 80 30 W
+  Map_references:
+  Central_America_and_the_Caribbean
+  Area:
+  total: 264 sq km
+  country comparison to the world:  211
+  land: 264 sq km
+  water: 0 sq km
+  Area_-_comparative:
+  1.5 times the size of Washington, DC
+  Land_boundaries:
+  0 km
+  Coastline:
+  160 km
+  Maritime_claims:
+  territorial sea: 12 nm
+  exclusive fishing zone: 200 nm
+  Climate:
+  tropical marine; warm, rainy summers (May to October) and cool, relatively dry winters (November to April)
+  Terrain:
+  low-lying limestone base surrounded by coral reefs
+  Elevation_extremes:
+  lowest point: Caribbean Sea 0 m
+  highest point: The Bluff on Cayman Brac 43 m
+  Natural_resources:
+  fish, climate and beaches that foster tourism
+  Land_use:
+  arable land: 0.83%
+  permanent crops: 2.08%
+  other: 97.08% (2011)
+  Irrigated_land:
+  NA
+  Natural_hazards:
+  hurricanes (July to November)
+  Environment_-_current_issues:
+  no natural freshwater resources; drinking water supplies must be met by rainwater catchments
+  Geography_-_note:
+  important location between Cuba and Central America
+
+
+
+
+People_and_Society_::Cayman_Islands
+
+
+
+  Nationality:
+  noun: Caymanian(s)
+  adjective: Caymanian
+  Ethnic_groups:
+  mixed 40%, white 20%, black 20%, expatriates of various ethnic groups 20%
+  Languages:
+  English (official) 90.9%, Spanish 4%, Filipino 3.3%, other 1.7%, unspecified 0.1% (2010 est.)
+  Religions:
+  Protestant 67.8% (includes Church of God 22.6%, Seventh Day Adventist 9.4%, Presbyterian/United Church 8.6%, Baptist 8.3%,Pentecostal 7.1%, non-denominational 5.3%, Anglican 4.1%, Wesleyan Holiness 2.4%), Roman Catholic 14.1%, Jehovah's Witness 1.1%, other 7%, none 9.3%, unspecified 0.7% (2010 est.)
+  Population:
+  54,914 (July 2013 est.)
+  country comparison to the world:  207
+  note: most of the population lives on Grand Cayman (July 2014 est.)
+  Age_structure:
+  0-14 years: 18.4% (male 5,093/female 5,022)
+  15-24 years: 12.9% (male 3,505/female 3,579)
+  25-54 years: 44% (male 11,771/female 12,384)
+  55-64 years: 13.6% (male 3,549/female 3,922)
+  65 years and over: 10.7% (male 2,870/female 3,219) (2014 est.)
+  population pyramid:
+  Median_age:
+  total: 39.5 years
+  male: 38.8 years
+  female: 40.1 years (2014 est.)
+  Population_growth_rate:
+  2.14% (2014 est.)
+  country comparison to the world:  45
+  Birth_rate:
+  12.13 births/1,000 population (2014 est.)
+  country comparison to the world:  164
+  Death_rate:
+  5.41 deaths/1,000 population (2014 est.)
+  country comparison to the world:  177
+  Net_migration_rate:
+  14.71 migrant(s)/1,000 population
+  country comparison to the world:  7
+  note: major destination for Cubans trying to migrate to the US (2014 est.)
+  Urbanization:
+  urban population: 100% of total population (2011)
+  rate of urbanization: 0.82% annual rate of change (2010-15 est.)
+  Major_urban_areas_-_population:
+  GEORGE TOWN (capital) 28,000 (2011)
+  Sex_ratio:
+  at birth: 1.02 male(s)/female
+  0-14 years: 1.01 male(s)/female
+  15-24 years: 0.98 male(s)/female
+  25-54 years: 0.95 male(s)/female
+  55-64 years: 0.95 male(s)/female
+  65 years and over: 0.9 male(s)/female
+  total population: 0.95 male(s)/female (2014 est.)
+  Infant_mortality_rate:
+  total: 6.21 deaths/1,000 live births
+  country comparison to the world:  167
+  male: 7.1 deaths/1,000 live births
+  female: 5.31 deaths/1,000 live births (2014 est.)
+  Life_expectancy_at_birth:
+  total population: 81.02 years
+  country comparison to the world:  24
+  male: 78.33 years
+  female: 83.76 years (2014 est.)
+  Total_fertility_rate:
+  1.86 children born/woman (2014 est.)
+  country comparison to the world:  144
+  Drinking_water_source:
+  improved:
+  urban: 95.6% of population
+  total: 95.6% of population
+  unimproved:
+  urban: 4.4% of population
+  total: 4.4% of population (2012 est.)
+  Sanitation_facility_access:
+  improved:
+  urban: 96.2% of population
+  total: 96.2% of population
+  unimproved:
+  urban: 3.8% of population
+  total: 3.8% of population (2012 est.)
+  HIV/AIDS_-_adult_prevalence_rate:
+  NA
+  HIV/AIDS_-_people_living_with_HIV/AIDS:
+  NA
+  HIV/AIDS_-_deaths:
+  NA
+  Education_expenditures:
+  NA
+  Literacy:
+  definition: age 15 and over has ever attended school
+  total population: 98.9%
+  male: 98.7%
+  female: 99% (2007 est.)
+  Unemployment,_youth_ages_15-24:
+  total: 13.5%
+  country comparison to the world:  94
+  male: 13.6%
+  female: 13.3% (2008)
+
+
+
+

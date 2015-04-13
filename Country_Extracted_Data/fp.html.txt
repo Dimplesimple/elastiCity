@@ -1,0 +1,167 @@
+French_Polynesia
+
+
+
+  Background:
+  The French annexed various Polynesian island groups during the 19th century. In September 1995, France stirred up widespread protests by resuming nuclear testing on the Mururoa atoll after a three-year moratorium. The tests were halted in January 1996. In recent years, French Polynesia's autonomy has been considerably expanded.
+
+
+
+
+Geography_::French_Polynesia
+
+
+
+  Location:
+  Oceania, five archipelagoes (Archipel des Tuamotu, Iles Gambier, Iles Marquises, Iles Tubuai, Society Islands) in the South Pacific Ocean about half way between South America and Australia
+  Geographic_coordinates:
+  15 00 S, 140 00 W
+  Map_references:
+  Oceania
+  Area:
+  total: 4,167 sq km (118 islands and atolls)
+  country comparison to the world:  175
+  land: 3,827 sq km
+  water: 340 sq km
+  Area_-_comparative:
+  slightly less than one-third the size of Connecticut
+  Land_boundaries:
+  0 km
+  Coastline:
+  2,525 km
+  Maritime_claims:
+  territorial sea: 12 nm
+  exclusive economic zone: 200 nm
+  Climate:
+  tropical, but moderate
+  Terrain:
+  mixture of rugged high islands and low islands with reefs
+  Elevation_extremes:
+  lowest point: Pacific Ocean 0 m
+  highest point: Mont Orohena 2,241 m
+  Natural_resources:
+  timber, fish, cobalt, hydropower
+  Land_use:
+  arable land: 0.68%
+  permanent crops: 6.28%
+  other: 93.03% (2011)
+  Irrigated_land:
+  10 sq km (2003)
+  Natural_hazards:
+  occasional cyclonic storms in January
+  Environment_-_current_issues:
+  NA
+  Geography_-_note:
+  includes five archipelagoes: four volcanic (Iles Gambier, Iles Marquises, Iles Tubuai, Society Islands) and one coral (Archipel des Tuamotu); Makatea in French Polynesia is one of the three great phosphate rock islands in the Pacific Ocean - the others are Banaba (Ocean Island) in Kiribati and Nauru
+
+
+
+
+People_and_Society_::French_Polynesia
+
+
+
+  Nationality:
+  noun: French Polynesian(s)
+  adjective: French Polynesian
+  Ethnic_groups:
+  Polynesian 78%, Chinese 12%, local French 6%, metropolitan French 4%
+  Languages:
+  French (official) 61.1%, Polynesian (official) 31.4%, Asian languages 1.2%, other 0.3%, unspecified 6% (2002 census)
+  Religions:
+  Protestant 54%, Roman Catholic 30%, other 10%, no religion 6%
+  Population:
+  280,026 (July 2014 est.)
+  country comparison to the world:  182
+  Age_structure:
+  0-14 years: 23.7% (male 34,182/female 32,276)
+  15-24 years: 16.7% (male 24,219/female 22,559)
+  25-54 years: 43.9% (male 63,034/female 59,859)
+  55-64 years: 8.5% (male 12,305/female 11,599)
+  65 years and over: 6.9% (male 9,713/female 10,280) (2014 est.)
+  population pyramid:
+  Dependency_ratios:
+  total dependency ratio: 42.5 %
+  youth dependency ratio: 32 %
+  elderly dependency ratio: 10.5 %
+  potential support ratio: 9.6 (2014 est.)
+  Median_age:
+  total: 30.6 years
+  male: 30.5 years
+  female: 30.7 years (2014 est.)
+  Population_growth_rate:
+  0.97% (2014 est.)
+  country comparison to the world:  122
+  Birth_rate:
+  15.47 births/1,000 population (2014 est.)
+  country comparison to the world:  131
+  Death_rate:
+  4.93 deaths/1,000 population (2014 est.)
+  country comparison to the world:  190
+  Net_migration_rate:
+  -0.87 migrant(s)/1,000 population (2014 est.)
+  country comparison to the world:  147
+  Urbanization:
+  urban population: 51.4% of total population (2011)
+  rate of urbanization: 1.07% annual rate of change (2010-15 est.)
+  Major_urban_areas_-_population:
+  PAPEETE (capital) 137,000 (2011)
+  Sex_ratio:
+  at birth: 1.05 male(s)/female
+  0-14 years: 1.06 male(s)/female
+  15-24 years: 1.07 male(s)/female
+  25-54 years: 1.05 male(s)/female
+  55-64 years: 1.05 male(s)/female
+  65 years and over: 0.95 male(s)/female
+  total population: 1.05 male(s)/female (2014 est.)
+  Infant_mortality_rate:
+  total: 4.78 deaths/1,000 live births
+  country comparison to the world:  180
+  male: 5.31 deaths/1,000 live births
+  female: 4.22 deaths/1,000 live births (2014 est.)
+  Life_expectancy_at_birth:
+  total population: 76.79 years
+  country comparison to the world:  73
+  male: 74.54 years
+  female: 79.15 years (2014 est.)
+  Total_fertility_rate:
+  1.95 children born/woman (2014 est.)
+  country comparison to the world:  132
+  Drinking_water_source:
+  improved:
+  urban: 100% of population
+  rural: 100% of population
+  total: 100% of population
+  unimproved:
+  urban: 0% of population
+  rural: 0% of population
+  total: 0% of population (2012 est.)
+  Sanitation_facility_access:
+  improved:
+  urban: 97.1% of population
+  rural: 97.1% of population
+  total: 97.1% of population
+  unimproved:
+  urban: 2.9% of population
+  rural: 2.9% of population
+  total: 2.9% of population (2012 est.)
+  HIV/AIDS_-_adult_prevalence_rate:
+  NA
+  HIV/AIDS_-_people_living_with_HIV/AIDS:
+  NA
+  HIV/AIDS_-_deaths:
+  NA
+  Literacy:
+  definition: age 14 and over can read and write
+  total population: 98%
+  male: 98%
+  female: 98% (1977 est.)
+  Unemployment,_youth_ages_15-24:
+  total: 33.2%
+  country comparison to the world:  24
+  male: 29.3%
+  female: 39.1% (2002)
+
+
+
+

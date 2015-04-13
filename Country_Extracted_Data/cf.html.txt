@@ -1,0 +1,213 @@
+Congo,_Republic_of_the
+
+
+
+  Background:
+  Upon independence in 1960, the former French region of Middle Congo became the Republic of the Congo. A quarter century of experimentation with Marxism was abandoned in 1990 and a democratically elected government took office in 1992. A brief civil war in 1997 restored former Marxist President Denis SASSOU-Nguesso, and ushered in a period of
+  ethnic and political unrest. Southern-based rebel groups agreed to a final peace accord in March 2003, but the calm is tenuous and refugees continue to present a humanitarian crisis. The Republic of Congo is one of Africa's largest petroleum producers, but with declining production it will need new offshore oil finds to sustain its oil earnings
+  over the long term.
+
+
+
+
+Geography_::Congo,_Republic_of_the
+
+
+
+  Location:
+  Central Africa, bordering the South Atlantic Ocean, between Angola and Gabon
+  Geographic_coordinates:
+  1 00 S, 15 00 E
+  Map_references:
+  Africa
+  Area:
+  total: 342,000 sq km
+  country comparison to the world:  64
+  land: 341,500 sq km
+  water: 500 sq km
+  Area_-_comparative:
+  slightly smaller than Montana
+  Land_boundaries:
+  total: 5,008 km
+  border countries: Angola 231 km, Cameroon 494 km, Central African Republic 487 km, Democratic Republic of the Congo 1,229 km, Gabon 2,567 km
+  Coastline:
+  169 km
+  Maritime_claims:
+  territorial sea: 200 nm
+  Climate:
+  tropical; rainy season (March to June); dry season (June to October); persistent high temperatures and humidity; particularly enervating climate astride the Equator
+  Terrain:
+  coastal plain, southern basin, central plateau, northern basin
+  Elevation_extremes:
+  lowest point: Atlantic Ocean 0 m
+  highest point: Mount Berongou 903 m
+  Natural_resources:
+  petroleum, timber, potash, lead, zinc, uranium, copper, phosphates, gold, magnesium, natural gas, hydropower
+  Land_use:
+  arable land: 1.46%
+  permanent crops: 0.18%
+  other: 98.36% (2011)
+  Irrigated_land:
+  20 sq km (2003)
+  Total_renewable_water_resources:
+  832 cu km (2011)
+  Freshwater_withdrawal_(domestic/industrial/agricultural):
+  total: 0.05 cu km/yr (69%/26%/4%)
+  per capita: 13.99 cu m/yr (2005)
+  Natural_hazards:
+  seasonal flooding
+  Environment_-_current_issues:
+  air pollution from vehicle emissions; water pollution from the dumping of raw sewage; tap water is not potable; deforestation
+  Environment_-_international_agreements:
+  party to: Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands
+  signed, but not ratified: none of the selected agreements
+  Geography_-_note:
+  about 70% of the population lives in Brazzaville, Pointe-Noire, or along the railroad between them
+
+
+
+
+People_and_Society_::Congo,_Republic_of_the
+
+
+
+  Nationality:
+  noun: Congolese (singular and plural)
+  adjective: Congolese or Congo
+  Ethnic_groups:
+  Kongo 48%, Sangha 20%, M'Bochi 12%, Teke 17%, Europeans and other 3%
+  Languages:
+  French (official), Lingala and Monokutuba (lingua franca trade languages), many local languages and dialects (of which Kikongo is the most widespread)
+  Religions:
+  Roman Catholic 33.1%, Awakening Churches/Christian Revival 22.3%, Protestant 19.9%, Salutiste 2.2%, Muslim 1.6%, Kimbanguiste 1.5%, other 8.1%, none 11.3% (2010 est.)
+  Population:
+  4,662,446
+  country comparison to the world:  125
+  note: estimates for this country explicitly take into account the effects of excess mortality due to AIDS; this can result in lower life expectancy, higher infant mortality, higher death rates, lower population growth rates, and changes in the distribution of population by age and sex than would otherwise be expected (July 2014 est.)
+  Age_structure:
+  0-14 years: 41.1% (male 966,852/female 950,411)
+  15-24 years: 17.7% (male 411,263/female 413,594)
+  25-54 years: 34.2% (male 808,181/female 787,554)
+  55-64 years: 4% (male 90,795/female 94,837)
+  65 years and over: 2.7% (male 60,400/female 78,559) (2014 est.)
+  population pyramid:
+  Dependency_ratios:
+  total dependency ratio: 85 %
+  youth dependency ratio: 78.7 %
+  elderly dependency ratio: 6.3 %
+  potential support ratio: 16 (2014 est.)
+  Median_age:
+  total: 19.8 years
+  male: 19.7 years
+  female: 20 years (2014 est.)
+  Population_growth_rate:
+  1.94% (2014 est.)
+  country comparison to the world:  55
+  Birth_rate:
+  36.59 births/1,000 population (2014 est.)
+  country comparison to the world:  18
+  Death_rate:
+  10.17 deaths/1,000 population (2014 est.)
+  country comparison to the world:  47
+  Net_migration_rate:
+  -7.02 migrant(s)/1,000 population (2014 est.)
+  country comparison to the world:  204
+  Urbanization:
+  urban population: 63.7% of total population (2011)
+  rate of urbanization: 2.84% annual rate of change (2010-15 est.)
+  Major_urban_areas_-_population:
+  BRAZZAVILLE (capital) 1.611 million; Pointe-Noire 834,000 (2011)
+  Sex_ratio:
+  at birth: 1.03 male(s)/female
+  0-14 years: 1.02 male(s)/female
+  15-24 years: 0.99 male(s)/female
+  25-54 years: 1.03 male(s)/female
+  55-64 years: 1.01 male(s)/female
+  65 years and over: 0.69 male(s)/female
+  total population: 0.99 male(s)/female (2014 est.)
+  Mother's_mean_age_at_first_birth:
+  19.8
+  note: median age at first birth among women 25-29 (2011-12 est.)
+  Maternal_mortality_rate:
+  560 deaths/100,000 live births (2010)
+  country comparison to the world:  16
+  Infant_mortality_rate:
+  total: 59.34 deaths/1,000 live births
+  country comparison to the world:  24
+  male: 64.49 deaths/1,000 live births
+  female: 54.04 deaths/1,000 live births (2014 est.)
+  Life_expectancy_at_birth:
+  total population: 58.52 years
+  country comparison to the world:  198
+  male: 57.38 years
+  female: 59.7 years (2014 est.)
+  Total_fertility_rate:
+  4.73 children born/woman (2014 est.)
+  country comparison to the world:  23
+  Contraceptive_prevalence_rate:
+  44.7% (2011/12)
+  Health_expenditures:
+  2.5% of GDP (2011)
+  country comparison to the world:  186
+  Physicians_density:
+  0.1 physicians/1,000 population (2007)
+  Hospital_bed_density:
+  1.6 beds/1,000 population (2005)
+  Drinking_water_source:
+  improved:
+  urban: 95.7% of population
+  rural: 38.8% of population
+  total: 75.3% of population
+  unimproved:
+  urban: 4.3% of population
+  rural: 61.2% of population
+  total: 24.7% of population (2012 est.)
+  Sanitation_facility_access:
+  improved:
+  urban: 19.6% of population
+  rural: 5.6% of population
+  total: 14.6% of population
+  unimproved:
+  urban: 80.4% of population
+  rural: 94.4% of population
+  total: 85.4% of population (2012 est.)
+  HIV/AIDS_-_adult_prevalence_rate:
+  2.8% (2012 est.)
+  country comparison to the world:  23
+  HIV/AIDS_-_people_living_with_HIV/AIDS:
+  74,500 (2012 est.)
+  country comparison to the world:  52
+  HIV/AIDS_-_deaths:
+  5,200 (2012 est.)
+  country comparison to the world:  37
+  Major_infectious_diseases:
+  degree of risk: very high
+  food or waterborne diseases: bacterial and protozoal diarrhea, hepatitis A, and typhoid fever
+  vectorborne disease: malaria and dengue fever
+  animal contact disease: rabies
+  water contact disease: schistosomiasis (2013)
+  Obesity_-_adult_prevalence_rate:
+  4.7% (2008)
+  country comparison to the world:  163
+  Children_under_the_age_of_5_years_underweight:
+  11.8% (2005)
+  country comparison to the world:  61
+  Education_expenditures:
+  6.2% of GDP (2010)
+  country comparison to the world:  39
+  Literacy:
+  definition: age 15 and over can read and write
+  total population: 83.8%
+  male: 89.6%
+  female: 78.4% (2003 est.)
+  School_life_expectancy_(primary_to_tertiary_education):
+  total: 11 years
+  male: 11 years
+  female: 11 years (2012)
+  Child_labor_-_children_ages_5-14:
+  total number: 252,171
+  percentage: 25 % (2005 est.)
+
+
+
+

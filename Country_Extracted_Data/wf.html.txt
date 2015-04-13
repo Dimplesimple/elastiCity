@@ -1,0 +1,147 @@
+Wallis_and_Futuna
+
+
+
+  Background:
+  The Futuna island group was discovered by the Dutch in 1616 and Wallis by the British in 1767, but it was the French who declared a protectorate over the islands in 1842, and took official control of them between 1886 and 1888. Notably, Wallis and Futuna was the only French colony to side with the Vichy regime during World War II, a phase that
+  ended in May of 1942 with the arrival of 2,000 American troops. In 1959, the inhabitants of the islands voted to become a French overseas territory and officially assumed this status in July 1961.
+
+
+
+
+Geography_::Wallis_and_Futuna
+
+
+
+  Location:
+  Oceania, islands in the South Pacific Ocean, about two-thirds of the way from Hawaii to New Zealand
+  Geographic_coordinates:
+  13 18 S, 176 12 W
+  Map_references:
+  Oceania
+  Area:
+  total: 142 sq km
+  country comparison to the world:  221
+  land: 142 sq km
+  water: 0 sq km
+  note: includes Ile Uvea (Wallis Island), Ile Futuna (Futuna Island), Ile Alofi, and 20 islets
+  Area_-_comparative:
+  1.5 times the size of Washington, DC
+  Land_boundaries:
+  0 km
+  Coastline:
+  129 km
+  Maritime_claims:
+  territorial sea: 12 nm
+  exclusive economic zone: 200 nm
+  Climate:
+  tropical; hot, rainy season (November to April); cool, dry season (May to October); rains 2,500-3,000 mm per year (80% humidity); average temperature 26.6 degrees C
+  Terrain:
+  volcanic origin; low hills
+  Elevation_extremes:
+  lowest point: Pacific Ocean 0 m
+  highest point: Mont Singavi (on Futuna) 765 m
+  Natural_resources:
+  NEGL
+  Land_use:
+  arable land: 7.14%
+  permanent crops: 35.71%
+  other: 57.15% (2011)
+  Irrigated_land:
+  NA
+  Natural_hazards:
+  NA
+  Environment_-_current_issues:
+  deforestation (only small portions of the original forests remain) largely as a result of the continued use of wood as the main fuel source; as a consequence of cutting down the forests, the mountainous terrain of Futuna is particularly prone to erosion; there are no permanent settlements on Alofi because of the lack of natural freshwater
+  resources
+  Geography_-_note:
+  both island groups have fringing reefs
+
+
+
+
+People_and_Society_::Wallis_and_Futuna
+
+
+
+  Nationality:
+  noun: Wallisian(s), Futunan(s), or Wallis and Futuna Islanders
+  adjective: Wallisian, Futunan, or Wallis and Futuna Islander
+  Ethnic_groups:
+  Polynesian
+  Languages:
+  Wallisian (indigenous Polynesian language) 58.9%, Futunian 30.1%, French (official) 10.8%, other 0.2% (2003 census)
+  Religions:
+  Roman Catholic 99%, other 1%
+  Population:
+  15,561 (July 2014 est.)
+  country comparison to the world:  224
+  Age_structure:
+  0-14 years: 23.4% (male 1,902/female 1,741)
+  15-24 years: 17.8% (male 1,449/female 1,320)
+  25-54 years: 40.7% (male 3,147/female 3,183)
+  55-64 years: 9.2% (male 719/female 709)
+  65 years and over: 8.6% (male 663/female 728) (2014 est.)
+  population pyramid:
+  Median_age:
+  total: 30.3 years
+  male: 29.3 years
+  female: 31.5 years (2014 est.)
+  Population_growth_rate:
+  0.33% (2014 est.)
+  country comparison to the world:  168
+  Birth_rate:
+  13.56 births/1,000 population (2014 est.)
+  country comparison to the world:  148
+  Death_rate:
+  4.95 deaths/1,000 population (2014 est.)
+  country comparison to the world:  188
+  Net_migration_rate:
+  -5.27 migrant(s)/1,000 population
+  country comparison to the world:  195
+  note: there has been steady emigration from Wallis and Futuna to New Caledonia (2014 est.)
+  Major_urban_areas_-_population:
+  MATA-UTU (capital) 1,000 (2011)
+  Sex_ratio:
+  at birth: 1.05 male(s)/female
+  0-14 years: 1.09 male(s)/female
+  15-24 years: 1.1 male(s)/female
+  25-54 years: 0.99 male(s)/female
+  55-64 years: 1.03 male(s)/female
+  65 years and over: 0.89 male(s)/female
+  total population: 1.02 male(s)/female (2014 est.)
+  Infant_mortality_rate:
+  total: 4.49 deaths/1,000 live births
+  country comparison to the world:  187
+  male: 4.72 deaths/1,000 live births
+  female: 4.24 deaths/1,000 live births (2014 est.)
+  Life_expectancy_at_birth:
+  total population: 79.42 years
+  country comparison to the world:  44
+  male: 76.43 years
+  female: 82.55 years (2014 est.)
+  Total_fertility_rate:
+  1.76 children born/woman (2014 est.)
+  country comparison to the world:  163
+  Sanitation_facility_access:
+  improved:
+  rural: 96% of population
+  total: 96% of population
+  unimproved:
+  rural: 4% of population
+  total: 4% of population (2008 est.)
+  HIV/AIDS_-_adult_prevalence_rate:
+  NA
+  HIV/AIDS_-_people_living_with_HIV/AIDS:
+  NA
+  HIV/AIDS_-_deaths:
+  NA
+  Literacy:
+  definition: age 15 and over can read and write
+  total population: 50%
+  male: 50%
+  female: 50% (1969 est.)
+
+
+
+

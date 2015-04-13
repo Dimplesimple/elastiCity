@@ -1,0 +1,169 @@
+Monaco
+
+
+
+  Background:
+  The Genoese built a fortress on the site of present day Monaco in 1215. The current ruling GRIMALDI family first seized temporary control in 1297, and again in 1331, but were not able to permanently secure their holding until 1419. Economic development was spurred in the late 19th century with a railroad linkup to France and the opening of a
+  casino. Since then, the principality's mild climate, splendid scenery, and gambling facilities have made Monaco world famous as a tourist and recreation center.
+
+
+
+
+Geography_::Monaco
+
+
+
+  Location:
+  Western Europe, bordering the Mediterranean Sea on the southern coast of France, near the border with Italy
+  Geographic_coordinates:
+  43 44 N, 7 24 E
+  Map_references:
+  Europe
+  Area:
+  total: 2 sq km
+  country comparison to the world:  250
+  land: 2 sq km
+  water: 0 sq km
+  Area_-_comparative:
+  about three times the size of The Mall in Washington, DC
+  Land_boundaries:
+  total: 6 km
+  border countries: France 6 km
+  Coastline:
+  4.1 km
+  Maritime_claims:
+  territorial sea: 12 nm
+  exclusive economic zone: 12 nm
+  Climate:
+  Mediterranean with mild, wet winters and hot, dry summers
+  Terrain:
+  hilly, rugged, rocky
+  Elevation_extremes:
+  lowest point: Mediterranean Sea 0 m
+  highest point: Mont Agel 140 m
+  Natural_resources:
+  none
+  Land_use:
+  arable land: 0%
+  permanent crops: 1%
+  other: 99% (urban area) (2011)
+  Irrigated_land:
+  NA
+  Natural_hazards:
+  NA
+  Environment_-_current_issues:
+  NA
+  Environment_-_international_agreements:
+  party to: Air Pollution, Air Pollution-Sulfur 94, Air Pollution-Volatile Organic Compounds, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling
+  signed, but not ratified: none of the selected agreements
+  Geography_-_note:
+  second-smallest independent state in the world (after Holy See); smallest country with a coastline; almost entirely urban
+
+
+
+
+People_and_Society_::Monaco
+
+
+
+  Nationality:
+  noun: Monegasque(s) or Monacan(s)
+  adjective: Monegasque or Monacan
+  Ethnic_groups:
+  French 47%, Monegasque 16%, Italian 16%, other 21%
+  Languages:
+  French (official), English, Italian, Monegasque
+  Religions:
+  Roman Catholic 90% (official), other 10%
+  Population:
+  30,508
+  country comparison to the world:  218
+  note: immigrants make up more than 60% of the total population, according to UN data (2013) (July 2014 est.)
+  Age_structure:
+  0-14 years: 11.7% (male 1,828/female 1,742)
+  15-24 years: 9.2% (male 1,445/female 1,371)
+  25-54 years: 35.1% (male 5,332/female 5,363)
+  55-64 years: 14.5% (male 2,223/female 2,203)
+  65 years and over: 28.7% (male 4,020/female 4,981) (2014 est.)
+  population pyramid:
+  Median_age:
+  total: 51.1 years
+  male: 50 years
+  female: 52.3 years (2014 est.)
+  Population_growth_rate:
+  0.06% (2014 est.)
+  country comparison to the world:  186
+  Birth_rate:
+  6.72 births/1,000 population (2014 est.)
+  country comparison to the world:  224
+  Death_rate:
+  9.01 deaths/1,000 population (2014 est.)
+  country comparison to the world:  67
+  Net_migration_rate:
+  2.85 migrant(s)/1,000 population (2014 est.)
+  country comparison to the world:  35
+  Urbanization:
+  urban population: 100% of total population (2011)
+  rate of urbanization: 0.04% annual rate of change (2010-15 est.)
+  Sex_ratio:
+  at birth: 1.04 male(s)/female
+  0-14 years: 1.05 male(s)/female
+  15-24 years: 1.05 male(s)/female
+  25-54 years: 0.99 male(s)/female
+  55-64 years: 0.95 male(s)/female
+  65 years and over: 0.81 male(s)/female
+  total population: 0.95 male(s)/female (2014 est.)
+  Infant_mortality_rate:
+  total: 1.81 deaths/1,000 live births
+  country comparison to the world:  224
+  male: 2.05 deaths/1,000 live births
+  female: 1.56 deaths/1,000 live births (2014 est.)
+  Life_expectancy_at_birth:
+  total population: 89.57 years
+  country comparison to the world:  1
+  male: 85.66 years
+  female: 93.64 years (2014 est.)
+  Total_fertility_rate:
+  1.52 children born/woman (2014 est.)
+  country comparison to the world:  190
+  Health_expenditures:
+  4.3% of GDP (2011)
+  country comparison to the world:  157
+  Physicians_density:
+  7.06 physicians/1,000 population (2011)
+  Hospital_bed_density:
+  16.5 beds/1,000 population (2011)
+  Drinking_water_source:
+  improved:
+  urban: 100% of population
+  total: 100% of population (2012 est.)
+  Sanitation_facility_access:
+  improved:
+  urban: 100% of population
+  total: 100% of population
+  unimproved:
+  urban: 0% of population
+  total: 0% of population (2012 est.)
+  HIV/AIDS_-_adult_prevalence_rate:
+  NA
+  HIV/AIDS_-_people_living_with_HIV/AIDS:
+  NA
+  HIV/AIDS_-_deaths:
+  NA
+  Education_expenditures:
+  1.6% of GDP (2011)
+  country comparison to the world:  169
+  Literacy:
+  definition: age 15 and over can read and write
+  total population: 99%
+  male: 99%
+  female: 99% (2003 est.)
+  Unemployment,_youth_ages_15-24:
+  total: 6.9%
+  country comparison to the world:  130
+  male: 6.6%
+  female: 7.4% (2000)
+
+
+
+
