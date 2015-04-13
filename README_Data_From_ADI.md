@@ -28,4 +28,5 @@
         _NOTE_
         This also provides the properties like what it contains (regions inside) and in what it is contained (regions on higher heirarchy)
 
+    Currently I am planning to staticaly support only major 719 cities, please see the file ./city_list.txt for the list (It is in City_Name,Country format)
 
