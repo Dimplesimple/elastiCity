@@ -4,31 +4,28 @@
 ## Using Google API (Knowledge Graph aka Freebase)
 ==================================
 
-# Query to be passed 
-----------------------------------
+## Query to be passed 
 
-*Country*
+###Country
     e.g United Kingdom
 
     Output: JSON
-        Then the output will have JSON containing these values http://www.freebase.com/location/country
-
-    *** NOTE ***
+        >Then the output will have JSON containing these values http://www.freebase.com/location/country
+    _NOTE_ 
         I decided to augument the Country Data with the CIA World Factbook data. This has been known to be more authentic and available for all countries (see ./filter_country.py for details)
     
-*Country:Field*
+###Country:Field
     If specific details are required like, say *Currency*, then query must be:
-        e.g **London:Currency**
-    For complete list of the fields, see http://www.freebase.com/location/country
+    e.g *London:Currency*
+        For complete list of the fields, see http://www.freebase.com/location/country
 
-*City*
+###City
     e.g London
-
     Output: JSON
-            e.g of the output https://www.googleapis.com/freebase/v1/topic/en/london?filter=%2Flocation
-        For complete list of the fields see this http://www.freebase.com/location/citytown
+        >e.g of the output https://www.googleapis.com/freebase/v1/topic/en/london?filter=%2Flocation
+            For complete list of the fields see this http://www.freebase.com/location/citytown
 
-        #**Import Note**
-        This also provides the properties like 
+        _NOTE_
+        This also provides the properties like what it contains (regions inside) and in what it is contained (regions on higher heirarchy)
 
 
