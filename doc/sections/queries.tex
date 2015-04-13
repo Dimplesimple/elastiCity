@@ -1,0 +1,9 @@
+\begin{enumerate}
+
+	\item Generic queries for the city e.g ``Boston'', ``Lisbon'', ``Sydney''.When only city names have been provided, it will display all the information about a given city, which has been scraped and collected from APIs.
+	\item Cities, filtered with interests e.g ``United States AND Category:biking''. Cities are hierarchically labelled to allow for broader search.
+	\item Cities, filtered with attractions e.g ``Category: Food or Museum'' (Every city is tagged with particular interests and attractions)
+\item Cities, filtered with people's opinion e.g ``Europe AND Twitter: HIGH'' (In this case, it will use Twitter as one of the source of information but will filter the cities which have very high number of recent mentions and hashtags)
+\item Search by weather. e.g ``Weather: 50 to 70 F AND NO RAIN in NEXT 10 days'' (We will use some existing weather API to prefetch the next 30 days weather forecast for every city in our DB. )
+
+Every search will have option to Rank the results based on several parameters (like number of tweets, or instagram mentions) or number of recent searches or news articles etc.
