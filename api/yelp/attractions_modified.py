@@ -21,7 +21,8 @@ def get_city_id(city_name):
     """
     This function query the freebase and get the topic id of input city
     """
-def get_city_attractions(topic_id):
+def get_city_attractions(city_name):
+    topic_id = get_city_id(city_name)
     service_url = 'https://www.googleapis.com/freebase/v1/topic'
     params = {
       'filter': '/location/location'
@@ -35,7 +36,9 @@ def get_city_attractions(topic_id):
     geo info call: get_city_attractions(topic_id)['/location/location/geolocation']
     """
 if __name__ == '__main__':
-    
+    '''
+    just call the function get_city_attractions() and input the city_name
+    '''
     city_name = raw_input("Please input the city: ")
-    pprint.pprint(get_city_attractions(get_city_id(city_name))['property']['/location/location/contains'])
-    pprint.pprint(get_city_attractions(get_city_id(city_name))['property']['/location/location/geolocation'])
+    pprint.pprint(get_city_attractions(city_name)['property']['/location/location/contains'])
+    pprint.pprint(get_city_attractions(city_name)['property']['/location/location/geolocation'])
