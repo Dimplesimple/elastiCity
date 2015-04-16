@@ -7,7 +7,6 @@ This is a temporary script file.
 
 import json
 import urllib
-import pprint
 
 class FREEBASE_KEY():
     '''
@@ -43,12 +42,22 @@ def get_city_attractions(city_name):
     Eden, please note that if you need the attractions, call: get_city_attractions(topic_id)['property']['/location/location/contains']
     geo info call: get_city_attractions(topic_id)['/location/location/geolocation']
     """
+def get_freebase_info(city_name):
+    '''
+    this function is used to extract the exact info we want
+    '''
+    freebase_dic = {}
+    city_data = get_city_attractions(city_name)
+    freebase_dic['attractions'] = city_data['property']['/location/location/contains']
+    freebase_dic['latitude'] = city_data['property']['/location/location/geolocation']['values'][0]['property']['/location/geocode/latitude']['values'][0]['value']
+    freebase_dic['longitude'] = city_data['property']['/location/location/geolocation']['values'][0]['property']['/location/geocode/longitude']['values'][0]['value']
+    return freebase_dic
+    
 if __name__ == '__main__':
     '''
-    just call the function get_city_attractions() and input the city_name
+    just call the function get_freebase_info(city_name) and input the city_name, here is the sample
     '''
     city_name = raw_input("Please input the city: ")
-
-    pprint.pprint(get_city_attractions(city_name))
-    pprint.pprint(get_city_attractions(city_name)['property']['/location/location/contains'])
-    pprint.pprint(get_city_attractions(city_name)['property']['/location/location/geolocation'])
+    print get_freebase_info(city_name)['attractions']
+    print get_freebase_info(city_name)['latitude']
+    print get_freebase_info(city_name)['longitude']
