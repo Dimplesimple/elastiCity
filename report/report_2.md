@@ -33,6 +33,8 @@ We aim to create a social travel planning workflow service that can guide users 
 ###Current Progress
 We have completed creating programs and retrieve and process data from our sources, frequntly adjusting the script as new side cases arise. We have settled on the data set and at this point will only eliminate data sources that will prove not useful - but not add more.
 
+The next step is to design the elasticSearch schema for the more “static” data that we will keep for the basic locations.
+
 We hope to set up elasticsearch clusters as soon as the mappings are finalized for each data source. These clusters will be hosted on Amazon EC2 or a similar service. Currently considering [QBox](https://qbox.io/signup), which offers free beginners credit and will surely suffice for our use.
 
 Our technology stack had gone some rapid changes from our initial vision - we are planning to use a service oriented architecture based on the segmentation of each of the followig componenets:
@@ -52,7 +54,12 @@ Each of the three above services will run seperatly, with almost all application
 	As with Yelp, we utilize Freebase to maximize the relevance of the results. All the search results are based on the city name that user input and retrieved from Freebase. For example, if you input “Boston”, then, most well-known attractions in Boston will pop up and we also provide links for user to check out the attractions. Along with the attractions, the GEO information consisted of the latitude and longitude will also provide for weather query purpose and also for checking the cities around the user input city purpose.
 	
 ####Weather
-	We have completed the APIs for gathering weather information from Yahoo Weather based on location, in the same format as the collected city data. We also have access to the Foursquare API and we are able to gather information about sightseeing, arts and outdoor activities. Those APIs will help us filter the results based on interests and real-time conditions. The next step is to design the elasticSearch schema for the more “static” data that we will keep for the basic locations.
+	We have completed the APIs for gathering weather information from Yahoo Weather based on location, in the same format as the collected city data. 
+	
+####Foursqure
+	We also have access to the Foursquare API and we are able to gather information about sightseeing, arts and outdoor activities. Those APIs will help us filter the results based on interests and real-time conditions. 
+	
+
 	
 ####Country and City Data + Activitives
 	We have completed a filtering and integration of the city data. Both Country data and city data is amalgamation from multiple sources, they return various information useful to a travel planner, like things to see, things to do, ways to get there, nearby places etc. One of sources of data is wikitravel, and their API was broken (out of maintenance) and thus data was obtained using scraping the html pages. 
