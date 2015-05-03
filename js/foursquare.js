@@ -24,11 +24,10 @@ function getCategories(callback){
 		console.log(data);
 		var cats = data['response']['categories'];
 		for (cat in cats){
-			//console.log(cats[cat]);
 			var catName = cats[cat]['name'];
 			addCategoryNode(catName);
 			getVenues(catName);
-			//callback(catName);
+
 		}
 
 	})

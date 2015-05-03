@@ -45,7 +45,8 @@ var get_location_id = function() {
 					locationId: locId,
 					clientId: '5557bf8c707f4d789c5cce12e28dd916'
 				});
-				feed.run();
+				
+					feed.run();
 
 			}
 		}

@@ -1,27 +1,32 @@
-// create an array with nodes
-var nodes = new vis.DataSet();
-// create an array with edges
-var edges = new vis.DataSet();
-// create a network
+var nodes;
+var edges;
 var container = document.getElementById('searchNetwork');
-var data= {
-	nodes: nodes,
-	edges: edges,
-};
-var options = {
-	width: '100%',
-	height: '400px'
-};
-var network = new vis.Network(container, data, options);
-
-function graphReset(){
+var data;
+var options;
+var network;
+var refreshed = false;
+function initializeGraph(){
+	if (refreshed){
+		network.destroy();
+	}
+	// create an array with nodes
 	nodes = new vis.DataSet();
 	// create an array with edges
 	edges = new vis.DataSet();
+	// create a network
+	data= {
+		nodes: nodes,
+		edges: edges,
+	};
+	options = {
+		width: '100%',
+		height: '400px'
+	};
 	network = new vis.Network(container, data, options);
+	refreshed = true;
 
+//	network.on('select', function(data){console.log(data)});
 }
-network.on('select', function(data){console.log(data)});
 var city = "";
 function addCityNode(label){
 	city = label;
@@ -44,7 +49,7 @@ function addCategoryNode(label){
 		shape: 'box',
 		fontSize: 20}
 		]);
-		edges.add([
+	edges.add([
 			{from: city, to: label}
 			]);
 }
@@ -63,4 +68,8 @@ function addVenueNode(label, category){
 			]);
 }
 
+function graphReset(){
+	network.destroy();
+	network.redraw();
+}
 

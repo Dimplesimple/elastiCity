@@ -12,6 +12,9 @@
 <meta name="keywords" content="" />
 <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/vis/3.12.0/vis.min.css"/>
 <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.css"/>
+<link rel="stylesheet" href="css/tweet.css"/>
+<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
 
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/skel/2.2.1/skel.min.js"></script>
@@ -21,7 +24,7 @@
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.devbridge-autocomplete/1.2.7/jquery.devbridge-autocomplete.min.js"></script>
-
+<script type="text/javascript" src="bower_components/codebird-js/codebird.js"></script>
 <link rel="stylesheet" href="css/logo.css" />
 
 <script src="js/init.js"></script>
@@ -66,17 +69,32 @@
 		</div>
 	</div>
 </div>
-<div id="venues" class="wrapper style2">
-	<h1>Venues</h1>
-	<div id="searchNetwork" style= ></div>
-</div>
+<div id="response">
+	<div class="wrapper style2">
+		<div id="map"></div>
+	</div>
+	
+	<div id="venues" class="wrapper style2">
+		<h1>Venues</h1>
+		<div id="searchNetwork"></div>
+	</div>
 
-<div id="instagram" class="wrapper style2" hidden>
-	<h1>Some recent photos...</h1>
-	<div id="instafeed"></div>
+
+	<div id="twitter" class="wrapper style2">
+		<h1>Twitter</h1>
+		<div id="feed" ></div>
+
+	</div>
+
+	<div id="instagram" class="wrapper style2">
+		<h1>Some recent photos...</h1>
+		<div id="instafeed"></div>
+	</div>
 </div>
-<script src="js/graph.js"></script>
 <script src="js/autocomplete.js"></script>
+<script src="js/map.js"></script>
+<script src="js/graph.js"></script>
+<script src="js/twitter.js"></script>
 <script src="js/location.js"></script>
 <script src="js/instagram.js"></script>
 <script src="js/foursquare.js"></script>

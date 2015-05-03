@@ -44,7 +44,5 @@
 
 
 $(window).load(function() {
-	$("#navlist").hide();
-	$('#venues').hide();
-	$("#infobox").hide();
+	$("#response").hide();
 });
