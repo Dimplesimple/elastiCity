@@ -28,10 +28,10 @@ class AuthoriYelp:
     
     # OAuth credential placeholders that must be filled in by users.
     
-    CONSUMER_KEY = '3SmJPARDTzUDRvQd8u1wQg'
-    CONSUMER_SECRET = 'JRMHsvsodGQDC6QfU3U6PjWv9bY'
-    TOKEN = '8JYqL-1cMTLme1Ej9szE9ZNiGvGRC9In'
-    TOKEN_SECRET = 'XTptkw2yM-jlod8HDvNTiQ5dhsw'
+    CONSUMER_KEY = 'uUaaBFCf-6yMx0HuinrURA'
+    CONSUMER_SECRET = '6axQlVcKxTq960lhBLqVCTAdBaA'
+    TOKEN = 'VD4HSBcLaZtsDtnKKf1uPHwJv-sXQyfi'
+    TOKEN_SECRET = '9GAXHsrWewuAb0v6r8d9PCWuweo'
 
 
 def request(host, path, url_params=None):
