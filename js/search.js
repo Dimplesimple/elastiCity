@@ -30,7 +30,12 @@ var instagram = function(){
 var twitter = function(){
 	show('#feed');
 	getTweets(name);
-}
+};
+
+var reddit = function(){
+	show('#redditResults');
+	getRedditPosts(name);
+};
 var start = function(data){
 	$('#header').height('20%');
 	initializeGraph();
@@ -39,7 +44,7 @@ var start = function(data){
 	lt = data['lt'];
 	//map();
 	
-	venues();
+	// venues();
 	$('#photos').click(function(){
 		instagram();	
 	});
@@ -49,10 +54,12 @@ var start = function(data){
 	$('#twitter').click(function(){
 		twitter();	
 	});
-
-
-
-	//instagram();
+	$('#reddit').click(function(){
+		reddit();	
+	});
+    
+    reddit();
+	// instagram();
 	//
 	
 }

@@ -29,11 +29,11 @@
 
 </head>
 
-<body hidden>
+<body>
 <div class="top navbar">
 
 	<img src="img/logo.png" id="logo" alt="ElastiCity">
-	<iframe class="github" src="https://ghbtns.com/github-btn.html?user=twbs&repo=bootstrap&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+	<!-- <iframe class="github" src="https://ghbtns.com/github-btn.html?user=twbs&repo=bootstrap&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> -->
 </div>
 
 <div id="search-space" class="has-feedback form-group col-xs-5 col-sm-3 vertical-center" >
@@ -47,9 +47,9 @@
 	<div class="navbar-header">
 		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
+			<!-- <span class="icon-bar"></span> -->
+			<!-- <span class="icon-bar"></span> -->
+			<!-- <span class="icon-bar"></span> -->
 		</button>
 		<a class="navbar-brand" href="#">ElastiCity</a>
 	</div>
@@ -59,6 +59,7 @@
 			<li><a href="#" id="graph">Venue Graph</a></li>
 			<li><a href="#" id="photos">Photos</a></li>
 			<li><a href="#" id="twitter">Twitter</a></li>
+			<li><a href="#" id="reddit">Reddit</a></li>
 			<li><a href="#">Map</a></li>
 			<li><a href="#">Info</a></li>
 
@@ -72,6 +73,7 @@
 <div class="row" id="result">
 	<div id="searchNetwork"></div>
 	<div id="instafeed"></div>
+    <div id="redditResults" style="display: block;"></div>
 	<div id="feed" ></div>
 </div>
 
@@ -83,6 +85,7 @@
 <script src="js/twitter.js"></script>
 <script src="js/location.js"></script>
 <script src="js/instagram.js"></script>
+<script src="js/reddit.js"></script>
 <script src="js/foursquare.js"></script>
 <script src="js/search.js"></script>
 
