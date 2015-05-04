@@ -1,0 +1,23 @@
+<html>
+<head>
+
+<script src="get_weather.js">
+</script>
+<script src="get_weather_thumb.js">
+</script>
+
+</head>
+
+<body>
+
+Enter city name &nbsp; &nbsp;&nbsp;<input type="text" id="city_name">
+    <input type="button" onclick="getWeatherCity(document.getElementById('city_name').value, false)" value="Search"> <br>
+Enter coordinates &nbsp; <input type="text" id="coords">
+    <input type="button" onclick="coords = document.getElementById('coords').value;
+                                  latitude=coords.split(',')[0];
+                                  longitude=coords.split(',')[1];
+                                  generateThumb(latitude, longitude);" value="Search">
+    <div id=result>
+    </div>
+</body>
+</html>
