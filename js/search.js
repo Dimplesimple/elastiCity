@@ -32,6 +32,10 @@ var twitter = function(){
 	getTweets(name);
 };
 
+var wiki = function(){
+	show('#wikiResults');
+	getWikiData(name);
+};
 var reddit = function(){
 	show('#redditResults');
 	getRedditPosts(name);
@@ -56,6 +60,9 @@ var start = function(data){
 	});
 	$('#reddit').click(function(){
 		reddit();	
+	});
+	$('#wiki').click(function(){
+		wiki();	
 	});
     
     // reddit();
