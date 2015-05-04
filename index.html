@@ -17,6 +17,10 @@
 <script src="http://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.1.1/randomColor.min.js"></script>
 <script src="bower_components/instafeed.js/instafeed.min.js"></script>
 
+<script src="js/prettyprint.js"></script>
+<script type="text/javascript" src="http://oauth.googlecode.com/svn/code/javascript/oauth.js"></script>
+<script type="text/javascript" src="http://oauth.googlecode.com/svn/code/javascript/sha1.js"></script>
+
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/vis/3.12.0/vis.min.js"></script>
 <script type="text/javascript" src="bower_components/codebird-js/codebird.js"></script>
@@ -61,6 +65,7 @@
 			<li><a href="#" id="twitter">Twitter</a></li>
 			<li><a href="#" id="reddit">Reddit</a></li>
 			<li><a href="#" id="wiki">Wiki</a></li>
+			<li><a href="#" id="yelp">Yelp</a></li>
 			<li><a href="#">Map</a></li>
 			<li><a href="#">Info</a></li>
 
@@ -76,6 +81,7 @@
 	<div id="instafeed"></div>
     <div id="redditResults" style="display: block;"></div>
     <div id="wikiResults" style="display: block;"></div>
+	<div id="yelpResults"></div>
 	<div id="feed" ></div>
 </div>
 
@@ -88,6 +94,7 @@
 <script src="js/location.js"></script>
 <script src="js/instagram.js"></script>
 <script src="js/reddit.js"></script>
+<script src="js/yelp.js"></script>
 <script src="js/wiki.js"></script>
 <script src="js/foursquare.js"></script>
 <script src="js/search.js"></script>
