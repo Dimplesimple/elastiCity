@@ -4,7 +4,9 @@
 
 // here is the user input
 var getYelp = function(cityName, terms) {
+	
 
+	// Info to get the authorization
 	var auth = {
 
 	consumerKey: "uUaaBFCf-6yMx0HuinrURA",
@@ -17,7 +19,7 @@ var getYelp = function(cityName, terms) {
 	  }
 	};
 
-
+	// exchange the info to get the authorization and use url to query Yelp
 	var accessor = {
 	  consumerSecret: auth.consumerSecret,
 	  tokenSecret: auth.accessTokenSecret
@@ -32,6 +34,7 @@ var getYelp = function(cityName, terms) {
 	parameters.push(['oauth_token', auth.accessToken]);
 	parameters.push(['oauth_signature_method', 'HMAC-SHA1']);
 
+	
 	var message = {
 	  'action': 'http://api.yelp.com/v2/search',
 	  'method': 'GET',
@@ -56,7 +59,7 @@ var getYelp = function(cityName, terms) {
 		var output = prettyPrint(data);
 		//var output = data;
 
-	//var yName = "#yelpResults";	
+	// take the info that we need	
 	$("#yelpResults").append("<h1>The top 10 is shown here: </h1>");
 	$("#yelpResults").append("<h1>");
 	$("#yelpResults").append(cityName);
@@ -77,6 +80,11 @@ var getYelp = function(cityName, terms) {
 
 	$("#yelpResults").append(output);
 }
+
+
+
+// this part is from the Goolecode, here is the link:
+// http://oauth.googlecode.com/svn/code/javascript/oauth.js
 
 
 /*

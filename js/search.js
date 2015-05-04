@@ -38,7 +38,8 @@ var wiki = function(){
 };
 var yelp = function(){
 	show('#yelpResults');
-	getYelp(name,'mexican');
+	var terms = prompt("Please enter the what kind of food you want","Mexican");
+	getYelp(name,terms);
 };
 var reddit = function(){
 	show('#redditResults');
