@@ -44,7 +44,7 @@ var start = function(data){
 	lt = data['lt'];
 	//map();
 	
-	// venues();
+	venues();
 	$('#photos').click(function(){
 		instagram();	
 	});
@@ -58,7 +58,7 @@ var start = function(data){
 		reddit();	
 	});
     
-    reddit();
+    // reddit();
 	// instagram();
 	//
 	
