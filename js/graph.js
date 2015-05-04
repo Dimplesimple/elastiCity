@@ -20,12 +20,11 @@ function initializeGraph(){
 	};
 	options = {
 		width: '100%',
-		height: '400px'
+		height: '100%'
 	};
 	network = new vis.Network(container, data, options);
 	refreshed = true;
 
-//	network.on('select', function(data){console.log(data)});
 }
 var city = "";
 function addCityNode(label){
@@ -55,10 +54,12 @@ function addCategoryNode(label){
 }
 var color = randomColor({luminosity: 'light'});
 var counter = 0;
-function addVenueNode(label, category){
+function addVenueNode(nameOfVenue, category){
+	//console.log(counter);
+	//console.log(nameOfVenue);
 	nodes.add([
 			{id: counter, 
-				label: label, 
+				label: nameOfVenue, 
 		color: color,
 		shape: 'box',
 		fontSize: 20}

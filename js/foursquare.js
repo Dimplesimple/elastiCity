@@ -1,12 +1,12 @@
 var oauth_token = 'FCA435RS4PUW2DEDZHICXYRPCCDITIJZ35OINI23ZILD1TFJ';
 var v =  20150430;
 var radius = 20000;
-function getVenues(category){
+function getVenues(category,catId){
 	var query = $.param({
 		ll: lg+","+lt,
 		v:v,
-	    oauth_token:oauth_token,
-		section: category
+	    	oauth_token:oauth_token,
+	    	categoryId: catId
 	});
 	var url = "https://api.foursquare.com/v2/venues/explore?";
 	$.get(url+query, function(data){
@@ -25,13 +25,18 @@ function getCategories(callback){
 		var cats = data['response']['categories'];
 		for (cat in cats){
 			var catName = cats[cat]['name'];
+			var catId = cats[cat]['id'];
 			addCategoryNode(catName);
-			getVenues(catName);
+			getVenues(catName,catId);
 
 		}
 
 	})
 
+}
+
+function extractCat(data){
+	
 }
 
 function initalizeFoursquare(){

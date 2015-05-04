@@ -1,96 +1,82 @@
-<!DOCTYPE HTML>
-<!--
-	Horizons by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <title>Elasticity</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta name="description" content="" />
 <meta name="keywords" content="" />
-<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/vis/3.12.0/vis.min.css"/>
-<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.css"/>
-<link rel="stylesheet" href="css/tweet.css"/>
-<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
 
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/skel/2.2.1/skel.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/vis/3.12.0/vis.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.1.1/randomColor.min.js"></script>
-<script src="bower_components/instafeed.js/instafeed.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.devbridge-autocomplete/1.2.7/jquery.devbridge-autocomplete.min.js"></script>
-<script type="text/javascript" src="bower_components/codebird-js/codebird.js"></script>
-<link rel="stylesheet" href="css/logo.css" />
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.css"/>
 
 <script src="js/init.js"></script>
+<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
 
-<noscript>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skel/2.2.1/skel.min.css" />
-	<link rel="stylesheet" href="css/style.css" />
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.1.1/randomColor.min.js"></script>
+<script src="bower_components/instafeed.js/instafeed.min.js"></script>
 
-</noscript>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/vis/3.12.0/vis.min.js"></script>
+<script type="text/javascript" src="bower_components/codebird-js/codebird.js"></script>
+
+
+<link rel="stylesheet" href="css/tweet.css"/>
 <link rel="stylesheet" href="css/search.css" />
+
+<link rel="stylesheet" href="css/style.css" />
+
 </head>
-<body class="homepage">
 
-<!-- Header -->
-<div id="header">
+<body hidden>
+<div class="top navbar">
 
-	<!-- Logo -->
-	<div id="navcontainer">
-		<ul id="navlist">
-			<li><a href="#venues">Venues</a></li>
-			<li><a href="#instagram" id="current">Photos</a></li>
-			<li><a href="#">Item three</a></li>
-			<li><a href="#">Item four</a></li>
-			<li><a href="#">Item five</a></li>
+	<img src="img/logo.png" id="logo" alt="ElastiCity">
+	<iframe class="github" src="https://ghbtns.com/github-btn.html?user=twbs&repo=bootstrap&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+</div>
+
+<div id="search-space" class="has-feedback form-group col-xs-5 col-sm-3 vertical-center" >
+	<input type="text" class="form-control search" placeholder="Where do you want to go?" id="city-search">
+
+
+
+</div>
+
+<div class="navbar navbar-default navbar-fixed-bottom bottom " role="navigation">
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="#">ElastiCity</a>
+	</div>
+	<div class="navbar-collapse collapse">
+
+		<ul class="nav navbar-nav list">
+			<li><a href="#" id="graph">Venue Graph</a></li>
+			<li><a href="#" id="photos">Photos</a></li>
+			<li><a href="#" id="twitter">Twitter</a></li>
+			<li><a href="#">Map</a></li>
+			<li><a href="#">Info</a></li>
+
 		</ul>
-	</div>
-	<!-- Banner -->
-	<div id="banner">
-		<div class="container">
-			<section>
-				<header id="title" class="major">
-					<img src="img/logo.png" id="logo" alt="Mountain View">
-					<span class="byline">This is a free project in information retrieval, allowing you to search for a destination. Powered by <a href="http://www.elasticsearch.com">elasticsearch</a>.</span>
-				</header>
-				<div class="box">
 
-					<span class="icon"><i class="fa fa-search"></i></span>
-					<input type="search" id="city-search" class="search" placeholder="Where are you going?" />
-
-				</div>
-			</section>			
-		</div>
 	</div>
 </div>
-<div id="response">
-	<div class="wrapper style2">
-		<div id="map"></div>
-	</div>
-	
-	<div id="venues" class="wrapper style2">
-		<h1>Venues</h1>
-		<div id="searchNetwork"></div>
-	</div>
 
 
-	<div id="twitter" class="wrapper style2">
-		<h1>Twitter</h1>
-		<div id="feed" ></div>
 
-	</div>
-
-	<div id="instagram" class="wrapper style2">
-		<h1>Some recent photos...</h1>
-		<div id="instafeed"></div>
-	</div>
+<div class="row" id="result">
+	<div id="searchNetwork"></div>
+	<div id="instafeed"></div>
+	<div id="feed" ></div>
 </div>
+
+
+
 <script src="js/autocomplete.js"></script>
 <script src="js/map.js"></script>
 <script src="js/graph.js"></script>
@@ -102,4 +88,3 @@
 
 
 </body>
-</html>
