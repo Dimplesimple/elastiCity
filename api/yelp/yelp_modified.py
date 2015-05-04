@@ -143,6 +143,7 @@ if __name__ == '__main__':
     # This is the function call, yelp_main(para1,para2)  para1 is the location and para2 is the food type, if food type is not provided, just empty string
     # data is saved as Json type
     businesses = yelp_main(DEFAULT_LOCATION,DEFAULT_TERM)
+    pprint.pprint(businesses)
     
     # No need to read the following code, just for check purpus
     
@@ -158,3 +159,4 @@ if __name__ == '__main__':
         pprint.pprint(response, indent=2)
         
         print "Here is the block ++++++++++++++++++++++++++++++++++ \n\n\n"
+    

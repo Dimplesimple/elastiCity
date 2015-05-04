@@ -36,6 +36,11 @@ var wiki = function(){
 	show('#wikiResults');
 	getWikiData(name);
 };
+var yelp = function(){
+	show('#yelpResults');
+	var terms = prompt("Please enter the what kind of food you want","Mexican");
+	getYelp(name,terms);
+};
 var reddit = function(){
 	show('#redditResults');
 	getRedditPosts(name);
@@ -63,6 +68,9 @@ var start = function(data){
 	});
 	$('#wiki').click(function(){
 		wiki();	
+	});
+	$('#yelp').click(function(){
+		yelp();	
 	});
     
     // reddit();
