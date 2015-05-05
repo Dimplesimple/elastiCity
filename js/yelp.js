@@ -1,7 +1,5 @@
 
 
-
-
 // here is the user input
 var getYelp = function(cityName, terms) {
 	
@@ -71,8 +69,8 @@ var getYelp = function(cityName, terms) {
 			} else {
 				$("#yelpResults").append("Not provided");
 			}
-			$("#yelpResults").append("\t");
-			$("#yelpResults").append('<img src="' + data.businesses[i].image_url +'" />');
+			//$("#yelpResults").append("\t");
+			//$("#yelpResults").append('<img src="' + data.businesses[i].image_url +'" />');
 			$("#yelpResults").append("<p>");   
 	   }
 	  }
