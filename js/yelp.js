@@ -46,7 +46,7 @@ var getYelp = function(cityName, terms) {
 
 	var parameterMap = OAuth.getParameterMap(message.parameters);
 	parameterMap.oauth_signature = OAuth.percentEncode(parameterMap.oauth_signature)
-	console.log(parameterMap);
+	//console.log(parameterMap);
 
 	$.ajax({
 	  'url': message.action,
@@ -55,8 +55,8 @@ var getYelp = function(cityName, terms) {
 	  'dataType': 'jsonp',
 	  'jsonpCallback': 'cb',
 	  'success': function(data, textStats, XMLHttpRequest) {
-			console.log(data);
-			var output = prettyPrint(data);
+			//console.log(data);
+			//var output = prettyPrint(data);
 
 	// take the info that we need	
 	$("#yelpResults").append("<h1>The top 10 " + terms + " food in " + cityName + " is shown here: </h1>");
@@ -78,7 +78,7 @@ var getYelp = function(cityName, terms) {
 	  }
 	});
 
-	$("#yelpResults").append(output);
+	//$("#yelpResults").append(output);
 }
 
 
