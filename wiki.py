@@ -23,8 +23,9 @@ class index:
 def wiki_data(location):
     result = ES().search_location(location.lower())
     data = []
+    data.append('<blockquote style="background-color: black; opacity: 0.7; color: white; text-align: center;"><h2>' +location + '</h2><br />' +  '</blockquote>')
     for key, value in result.iteritems():
-        data.append('<blockquote style="background-color: black; text-align: left;"><h2>' +key + '</h2><br />' + value.replace('****','<br />') + '</blockquote>')
+        data.append('<blockquote style="background-color: black; opacity: 0.7; color: white; text-align: left;"><h2>' +key + '</h2><br />' + value.replace('****','<br />') + '</blockquote>')
         # data.append('<blockquote class="twitter-tweet"><h2>' +key + '</h2><br />' + value.replace('****','<br />') + '</blockquote>')
     return ' '.join(data).encode('utf-8')
         
