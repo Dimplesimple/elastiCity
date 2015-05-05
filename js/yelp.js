@@ -63,6 +63,8 @@ var getYelp = function(cityName, terms) {
 	$("#yelpResults").append("<h1>The top 10 is shown here: </h1>");
 	$("#yelpResults").append("<h1>");
 	$("#yelpResults").append(cityName);
+	$("#yelpResults").append("      ");
+	$("#yelpResults").append(terms);
 	$("#yelpResults").append("<\h1>");
 	var i;
 	for(i=0; i<=9; i= i+1){
@@ -71,7 +73,12 @@ var getYelp = function(cityName, terms) {
 				$("#yelpResults").append('<a href ="' + data.businesses[i].url + '">' + data.businesses[i].name +'</a>');
 				$("#yelpResults").append("      ");
 				$("#yelpResults").append(" Phone: ");
-				$("#yelpResults").append(data.businesses[i].phone);
+				if (data.businesses[i].phone){
+					$("#yelpResults").append(data.businesses[i].phone);
+				} else {
+					$("#yelpResults").append("Not provided");
+				}
+				
 				$("#yelpResults").append("<p>");  
 	   }
 
