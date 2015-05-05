@@ -55,33 +55,26 @@ var getYelp = function(cityName, terms) {
 	  'dataType': 'jsonp',
 	  'jsonpCallback': 'cb',
 	  'success': function(data, textStats, XMLHttpRequest) {
-		console.log(data);
-		var output = prettyPrint(data);
-		//var output = data;
+			console.log(data);
+			var output = prettyPrint(data);
 
 	// take the info that we need	
-	$("#yelpResults").append("<h1>The top 10 is shown here: </h1>");
-	$("#yelpResults").append("<h1>");
-	$("#yelpResults").append(cityName);
-	$("#yelpResults").append("      ");
-	$("#yelpResults").append(terms);
-	$("#yelpResults").append("<\h1>");
+	$("#yelpResults").append("<h1>The top 10 " + terms + " food in " + cityName + " is shown here: </h1>");
+	
 	var i;
 	for(i=0; i<=9; i= i+1){
-		$("#yelpResults").append("<p>");  
-				$("#yelpResults").append("<p>");  
-				$("#yelpResults").append('<a href ="' + data.businesses[i].url + '">' + data.businesses[i].name +'</a>');
-				$("#yelpResults").append("      ");
-				$("#yelpResults").append(" Phone: ");
-				if (data.businesses[i].phone){
-					$("#yelpResults").append(data.businesses[i].phone);
-				} else {
-					$("#yelpResults").append("Not provided");
-				}
-				
-				$("#yelpResults").append("<p>");  
+			$("#yelpResults").append("<p>");  
+			$("#yelpResults").append('<a href ="' + data.businesses[i].url + '">' + data.businesses[i].name +'\t</a>');
+			$("#yelpResults").append(" Phone: ");
+			if (data.businesses[i].phone){
+				$("#yelpResults").append(data.businesses[i].phone);
+			} else {
+				$("#yelpResults").append("Not provided");
+			}
+			$("#yelpResults").append("\t");
+			$("#yelpResults").append('<img src="' + data.businesses[i].image_url +'" />');
+			$("#yelpResults").append("<p>");   
 	   }
-
 	  }
 	});
 
