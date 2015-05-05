@@ -15,6 +15,14 @@ class index:
         output = infobox_data(location)
         return output
 
+def remove_digit_title(title):
+    words = title.split(' ')
+    check_digit = lambda s: any([c.isdigit() for c in s])
+    filtered_words = []
+    for word in words:
+        if not check_digit(word): filtered_words.append(word)
+    return ' '.join(filtered_words)
+
 def infobox_data(location):
     result =  infobox(wp_article.dump(str(location)))
     datadic = {}
@@ -25,12 +33,18 @@ def infobox_data(location):
             vals = line[2:].split('=') 
             key = vals[0]
             value = ' '.join(vals[1:])
-            value = value.translate(None, '{}[]#!()')
+            key = key.translate(None, '{}[]#!()<>')
+            value = value.translate(None, '{}[]#!()<>')
+            key = key.replace('_', ' ')
+            key = remove_digit_title(key)
+            value = value.replace('_', ' ')
             datadic[key.strip(' ')] = value.strip(' ')
     data = []
+    data.append('<blockquote style="background-color: black; opacity: 0.7; color: white; text-align: center;"><h2>' +location + '</h2><br />' +  '</blockquote>')
     for key, value in datadic.iteritems():
         if key == 'titlestyle': continue
         if not value: continue
+        if len(value) < 2: continue
 
         data.append('<blockquote style="background-color: black; opacity: 0.7; color: white; text-align: left;"><h2>' +key + '</h2><br />' + value.replace('****','<br />') + '</blockquote>')
     # fix_encoding = lambda s: s.decode('utf8', 'ignore')

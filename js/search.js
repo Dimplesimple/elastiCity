@@ -45,6 +45,10 @@ var reddit = function(){
 	show('#redditResults');
 	getRedditPosts(name);
 };
+var infobox = function(){
+	show('#infoboxResults');
+	getInfoboxData(name);
+};
 var start = function(data){
 	$('#header').height('20%');
 	initializeGraph();
@@ -71,6 +75,9 @@ var start = function(data){
 	});
 	$('#yelp').click(function(){
 		yelp();	
+	});
+	$('#infobox').click(function(){
+		infobox();	
 	});
     
     // reddit();
