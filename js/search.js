@@ -63,6 +63,10 @@ var start = function(){
     name = document.getElementById('city2').value; 
     lt = document.getElementById('cityLat').value;
     lg = document.getElementById('cityLng').value;
+    generateThumb(lt,lg);
+    //document.getElementById('weather-thumb').innerHTML = generateThumb(lt,lg);
+    document.getElementById('weather-thumb').style.display='block';
+    //alert('searched for lt: '+lt);
 	// console.log(lg);
 	// console.log(name);
 	// console.log(lt);
