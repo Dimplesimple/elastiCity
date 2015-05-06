@@ -55,7 +55,7 @@ var getYelp = function(cityName, terms) {
 			//var output = prettyPrint(data);
 
 	// take the info that we need	
-    $("#yelpResults").append('<div color: white; text-align: center;"><h2>' +terms + '</h2><br />' )
+    $("#yelpResults").append('<div color: white; text-align: center;"><h2>' + terms + ' food in ' + cityName + '</h2><br />' )
 	// $("#yelpResults").append("<h1>The top 10 " + terms + " food in " + cityName + " is shown here: </h1>");
 	
 	var i;
