@@ -1,8 +1,6 @@
-
-
 // here is the user input
 var getYelp = function(cityName, terms) {
-	
+	// $("#yelpResults").css({opacity: 0.6});
 
 	// Info to get the authorization
 	var auth = {
@@ -51,17 +49,18 @@ var getYelp = function(cityName, terms) {
 	  'data': parameterMap,
 	  'cache': true,
 	  'dataType': 'jsonp',
-	  'jsonpCallback': 'cb',
+	  // 'jsonpCallback': 'cb',
 	  'success': function(data, textStats, XMLHttpRequest) {
 			//console.log(data);
 			//var output = prettyPrint(data);
 
 	// take the info that we need	
-	$("#yelpResults").append("<h1>The top 10 " + terms + " food in " + cityName + " is shown here: </h1>");
+    $("#yelpResults").append('<div style="background-color: black; opacity: 0.7; color: white; text-align: center;"><h2>The Top 10 ' + terms + ' food  </h2><br />' )
+	// $("#yelpResults").append("<h1>The top 10 " + terms + " food in " + cityName + " is shown here: </h1>");
 	
 	var i;
 	for(i=0; i<=9; i= i+1){
-			$("#yelpResults").append("<p>");  
+			$("#yelpResults").append('<p>');  
 			$("#yelpResults").append('<a href ="' + data.businesses[i].url + '">' + data.businesses[i].name +'\t</a>');
 			$("#yelpResults").append(" Phone: ");
 			if (data.businesses[i].phone){
@@ -69,12 +68,11 @@ var getYelp = function(cityName, terms) {
 			} else {
 				$("#yelpResults").append("Not provided");
 			}
-			//$("#yelpResults").append("\t");
-			//$("#yelpResults").append('<img src="' + data.businesses[i].image_url +'" />');
-			$("#yelpResults").append("<p>");   
+			$("#yelpResults").append("</p>");   
 	   }
 	  }
 	});
+	$("#yelpResults").append("</div>");
 
 	//$("#yelpResults").append(output);
 }
