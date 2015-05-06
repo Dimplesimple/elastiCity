@@ -1,0 +1,20 @@
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+What kind of food you prefer:  <input type="text" id="field1" value="Mexican">
+<button onclick="yelpHelper()">OK</button>
+
+<script>
+function yelpHelper() {
+    var foodType = document.getElementById("field1").value;
+	//getYelp(cityName,foodType);
+	alert(foodType);
+	
+}
+</script>
+
+</body>
+</html>
