@@ -38,7 +38,6 @@ var wiki = function(){
 };
 var yelp = function(){
 	show('#yelpResults');
-    //$("#yelpResults").append('<div style="background-color: black; opacity: 0.6; color: white; text-align: center;"><h1>' + name + ' </h1><br /><br />' )
 	var foodType = new Array("Mexican", "Chinese", "European",
 		"American","Indian","African","Korean","Japanese");
 	var i;
@@ -57,17 +56,11 @@ var infobox = function(){
 var start = function(){
 	$('#header').height('20%');
 	initializeGraph();
-	// name = data['name'];
-	// lg = data['lg'];
-	// lt = data['lt'];
     name = document.getElementById('city2').value; 
     lt = document.getElementById('cityLat').value;
     lg = document.getElementById('cityLng').value;
     generateThumb(lt,lg);
     document.getElementById('weather-thumb').style.display='block';
-	// console.log(lg);
-	// console.log(name);
-	// console.log(lt);
 	// map();
 	
 	venues(lg, lt);
@@ -93,9 +86,6 @@ var start = function(){
 		infobox();	
 	});
     
-    // reddit();
-	// instagram();
-	//
 	
 }
 
@@ -103,7 +93,6 @@ var initial = function(){setUpAutocomplete('city-search', start)};
 
 initial();
 
-// start();
 $('#city-search').keyup(function(){
 	clearLanding();
 });

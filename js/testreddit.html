@@ -1,0 +1,32 @@
+<html>
+<head>
+<script>
+
+    function queryReddit(location)
+    {
+        // get the data from the reddit
+        // returns the output in the json format
+        var xmlHttp = null;
+        xmlHttp = new XMLHttpRequest();
+        xmlHttp.open( "GET", 'http://www.reddit.com/search.json?q='+location, false );
+        xmlHttp.send( null );
+        return xmlHttp.responseText; 
+    }
+    function getRedditPosts(query){
+        results = queryReddit(query)
+        for result in results {
+            document.getElementById("hello").innerHTML = result
+            //<!-- $('#feed').append('<blockquote class="twitter-tweet">' + result + "</blockquote>"); -->  
+        }
+                                
+    }
+
+</script>
+
+</head>
+
+<body>
+<div id="hello"></div>
+<a href="#" onclick="getRedditPosts('london')">Click</a>
+</body>
+</html>

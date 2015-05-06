@@ -2,10 +2,11 @@ var fetchPhotos = function() {
 
 	var query_params = {
 		client_id : "5557bf8c707f4d789c5cce12e28dd916",
-		lat : lg,
-		lng: lt
+		lat : lt,
+		lng: lg
 	};
 	var query_string = "https://api.instagram.com/v1/locations/search?" + $.param(query_params);
+	console.log(query_string);
 
 	$.ajax({
 		type: "GET",

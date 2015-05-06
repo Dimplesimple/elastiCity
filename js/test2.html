@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function loadXMLDoc(location)
+{
+var xmlhttp;
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+    //<!-- document.getElementById("myDiv").innerHTML=xmlhttp.responseText; -->
+    results=xmlhttp.responseText;
+    document.getElementById("myDiv").innerHTML = results[9];
+    //for result in results {
+     //   document.getElementById("myDiv").innerHTML = result
+
+    //}
+    }
+  }
+//<!-- xmlhttp.open("GET","ajax_info.txt",true); -->
+xmlhttp.open( "GET", 'http://www.reddit.com/search.json?q='+location, false );
+xmlhttp.send();
+}
+</script>
+</head>
+<body>
+
+<div id="myDiv"><h2>Let AJAX change this text</h2></div>
+<button type="button" onclick="loadXMLDoc('london')">Change Content</button>
+
+</body>
+</html>
+

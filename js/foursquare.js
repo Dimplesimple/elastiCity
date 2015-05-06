@@ -7,8 +7,8 @@ function getVenues(category,catId){
     // lt = document.getElementById('cityLng').value;
     // lg = "42.3600825";
     // lt = "-71.05888010000001";
-    console.log(lg);
-    console.log(lt);
+    // console.log(lg);
+    // console.log(lt);
 	var query = $.param({
 		ll: lt+","+lg,
 		v:v,
