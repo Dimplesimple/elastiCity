@@ -38,14 +38,9 @@ var wiki = function(){
 };
 var yelp = function(){
 	show('#yelpResults');
-<<<<<<< HEAD
     $("#yelpResults").append('<div style="background-color: black; opacity: 0.6; color: white; text-align: center;"><h1>' + name + ' </h1><br /><br />' )
 	var foodType = new Array("Mexican", "Chinese", "European",
 		"American","Indian","African","Korean","Japanese");
-=======
-	var foodType = ["Mexican", "Chinese", "European",
-		"American","Indian","African","Korean","Japanese"];
->>>>>>> a0a7a0b6bf42905cc1e32c2f0e219ac1b85aa6f6
 	var i;
 	for (i = 0; i < foodType.length; i++) { 
 		getYelp(name,foodType[i]);
