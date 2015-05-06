@@ -38,7 +38,7 @@ var wiki = function(){
 };
 var yelp = function(){
 	show('#yelpResults');
-    $("#yelpResults").append('<div style="background-color: black; opacity: 0.6; color: white; text-align: center;"><h1>' + name + ' </h1><br /><br />' )
+    //$("#yelpResults").append('<div style="background-color: black; opacity: 0.6; color: white; text-align: center;"><h1>' + name + ' </h1><br /><br />' )
 	var foodType = new Array("Mexican", "Chinese", "European",
 		"American","Indian","African","Korean","Japanese");
 	var i;
