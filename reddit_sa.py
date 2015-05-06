@@ -29,7 +29,8 @@ def reddit_data(location):
     for elem in search_result['data']['children']:
         data.append('<blockquote class="twitter-tweet">' + elem['data']['title'] + '</blockquote>')
 
-    return ' '.join(data)
+    return ' '.join(data).encode('utf-8')
+    # return ' '.join(data)
 
 
 if __name__ == "__main__":
