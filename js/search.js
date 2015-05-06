@@ -36,16 +36,16 @@ var wiki = function(){
 	show('#wikiResults');
 	getWikiData(name);
 };
-// var yelp = function(){
-// 	show('#yelpResults');
-//     $("#yelpResults").append('<div style="background-color: black; opacity: 0.6; color: white; text-align: center;"><h1>' + name + ' </h1><br /><br />' )
-// 	var foodType = new Array("Mexican", "Chinese", "European",
-// 		"American","Indian","African","Korean","Japanese");
-// 	var i;
-// 	for (i = 0; i < foodType.length; i++) { 
-// 		getYelp(name,foodType[i]);
-// 	}
-// };
+var yelp = function(){
+	show('#yelpResults');
+    $("#yelpResults").append('<div style="background-color: black; opacity: 0.6; color: white; text-align: center;"><h1>' + name + ' </h1><br /><br />' )
+	var foodType = new Array("Mexican", "Chinese", "European",
+		"American","Indian","African","Korean","Japanese");
+	var i;
+	for (i = 0; i < foodType.length; i++) { 
+		getYelp(name,foodType[i]);
+	}
+};
 var reddit = function(){
 	show('#redditResults');
 	getRedditPosts(name);
@@ -84,9 +84,9 @@ var start = function(){
 	$('#wiki').click(function(){
 		wiki();	
 	});
-	// $('#yelp').click(function(){
-		// yelp();	
-	// });
+	$('#yelp').click(function(){
+		yelp();	
+	});
 	$('#infobox').click(function(){
 		infobox();	
 	});
