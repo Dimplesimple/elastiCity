@@ -2,15 +2,6 @@
 <html lang="en">
 <head>
 <title>Elasticity</title>
-<style>
-div.yelp {
-    text-align: center;
-    color: white;
-}
-a:link {
-    color: red;
-}
-</style>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta name="description" content="" />
@@ -23,7 +14,6 @@ a:link {
 <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
 
 <script src="http://maps.googleapis.com/maps/api/js?sensor=false&amp;libraries=places" type="text/javascript"></script>
-<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places"></script> -->
 <script src="http://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.1.1/randomColor.min.js"></script>
 <script src="bower_components/instafeed.js/instafeed.min.js"></script>
 
@@ -35,103 +25,37 @@ a:link {
 <script src="http://cdnjs.cloudflare.com/ajax/libs/vis/3.12.0/vis.min.js"></script>
 <script type="text/javascript" src="bower_components/codebird-js/codebird.js"></script>
 
-<script type="text/javascript">
-    function initialize() {
-        var input = document.getElementById('city-search');
-        var autocomplete = new google.maps.places.Autocomplete(input);
-        google.maps.event.addListener(autocomplete, 'place_changed', function () {
-            var place = autocomplete.getPlace();
-            document.getElementById('city2').value = place.name;
-            document.getElementById('cityLat').value = place.geometry.location.lat();
-            document.getElementById('cityLng').value = place.geometry.location.lng();
-
-        });
-    }
-//    <!-- google.maps.event.addDomListener(window, 'load', initialize); --> 
-</script>
+<script src="bower_components/bootstrap3-dialog/dist/js/bootstrap-dialog.min.js"></script>
+<link href="bower_components/bootstrap3-dialog/dist/css/bootstrap-dialog.min.css" rel="stylesheet" type="text/css" />
 
 <link rel="stylesheet" href="css/tweet.css"/>
-<link rel="stylesheet" href="css/search.css" />
-
 <link rel="stylesheet" href="css/style.css" />
-<link rel="stylesheet" href="css/mystyle.css" />
+
+<link rel="stylesheet" href="css/search.css" />
 
 </head>
 
 <body>
 <div class="top navbar">
-
 	<img src="img/logo.png" id="logo" alt="ElastiCity">
-	<!-- <iframe class="github" src="https://ghbtns.com/github-btn.html?user=twbs&repo=bootstrap&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> -->
+	<iframe class="github" src="https://ghbtns.com/github-btn.html?user=edenzik&repo=elastiCity&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 </div>
 
-<div id="search-space" class="has-feedback form-group col-xs-5 col-sm-3 vertical-center" >
     <!-- <form action="#"> -->
-    <table style="border-color: transparent"> <tr><td> <input type="text" class="form-control search" placeholder="Where do you want to go?" id="city-search"> </td> <td> <div id="weather-thumb" style="display:none"> </div> </td> </tr></table>
-
-    <input type="hidden" id="city2" name="city2" />
-    <input type="hidden" id="cityLat" name="cityLat" />
-    <input type="hidden" id="cityLng" name="cityLng" />  
+    <input type="text" class="search" placeholder="Where do you want to go?" id="search">
     <!-- </form> -->
 
-</div>
 
-<div class="navbar navbar-default navbar-fixed-bottom bottom " role="navigation">
-	<div class="navbar-header">
-		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-			<span class="sr-only">Toggle navigation</span>
-			<!-- <span class="icon-bar"></span> -->
-			<!-- <span class="icon-bar"></span> -->
-			<!-- <span class="icon-bar"></span> -->
-		</button>
-		<a class="navbar-brand" href="#">ElastiCity</a>
-	</div>
-	<div class="navbar-collapse collapse">
-
-		<ul class="nav navbar-nav list">
-			<li><a href="#" id="graph">Venue Graph</a></li>
-			<li><a href="#" id="photos">Photos</a></li>
-			<li><a href="#" id="twitter">Twitter</a></li>
-			<li><a href="#" id="reddit">Reddit</a></li>
-			<li><a href="#" id="wiki">Wiki</a></li>
-			<li><a href="#" id="yelp">Yelp</a></li>
-			<li><a href="#" id="infobox">Infobox</a></li>
-			<!-- <li><a href="#">Map</a></li> -->
-			<!-- <li><a href="#">Info</a></li> -->
-
-		</ul>
-
-	</div>
-</div>
-
-
-
-<div class="row" id="result">
-	<div id="searchNetwork"></div>
-	<div id="instafeed"></div>
-    <div id="redditResults" style="display: block;"></div>
-    <div id="wikiResults" style="display: block;"></div>
-	<div id="infoboxResults" style="display: block;"></div>
-	<div id="yelpResults" style="background-color: rgba(0,0,0,0.5)"></div>
-	<div id="feed" ></div>
-</div>
-
-
+<div id="result"></div>
 
 <script src="js/autocomplete.js"></script>
-<!-- <script src="js/map.js"></script> -->
 <script src="js/graph.js"></script>
-<script src="js/twitter.js"></script>
-<script src="js/location.js"></script>
-<script src="js/instagram.js"></script>
-<script src="js/reddit.js"></script>
-<script src="js/yelp.js"></script>
-<script src="js/wiki.js"></script>
-<script src="js/infobox.js"></script>
 <script src="js/foursquare.js"></script>
+<script src="js/wiki.js"></script>
+
+<script src="js/main.js"></script>
 <script src="js/search.js"></script>
-<script src="js/weather.js"></script>
-<script src="js/weatherThumb.js"></script>
+
 
 
 </body>

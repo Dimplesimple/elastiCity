@@ -1,14 +1,8 @@
 var oauth_token = 'FCA435RS4PUW2DEDZHICXYRPCCDITIJZ35OINI23ZILD1TFJ';
 var v =  20150430;
 var radius = 20000;
-function getVenues(category,catId){
-        
-    // lg = document.getElementById('cityLat').value;
-    // lt = document.getElementById('cityLng').value;
-    // lg = "42.3600825";
-    // lt = "-71.05888010000001";
-    // console.log(lg);
-    // console.log(lt);
+function getVenues(catId, lg, lt, callback){
+	console.log(lg);
 	var query = $.param({
 		ll: lt+","+lg,
 		v:v,
@@ -19,7 +13,9 @@ function getVenues(category,catId){
 	$.get(url+query, function(data){
 		var venues = data['response']['groups'][0]['items'];
 		for (venue in venues){
-			addVenueNode(venues[venue]['venue']['name'],category);
+			console.log(venue);
+			callback(venues[venue]['venue']['name']);
+			//addVenueNode(venues[venue]['venue']['name'],category);
 		}
 	});
 
@@ -33,9 +29,7 @@ function getCategories(callback){
 		for (cat in cats){
 			var catName = cats[cat]['name'];
 			var catId = cats[cat]['id'];
-			addCategoryNode(catName);
-			getVenues(catName,catId);
-
+			callback(cats[cat]);
 		}
 
 	})

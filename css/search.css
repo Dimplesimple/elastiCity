@@ -1,5 +1,6 @@
-/* Search 1 - bg change*/
 .search{
+	z-index: 3;
+	position:relative;
 	background: #2b303b;
 	border: none;
 	font-size: 11pt;
@@ -7,12 +8,20 @@
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 10px;
-
 	-webkit-transition: all .55s ease;
 	-moz-transition: all .55s ease;
 	-ms-transition: all .55s ease;
 	-o-transition: all .55s ease;
 	transition: all .55s ease;
+	width: 40%;
+	height: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	float: center;
+	white-space: nowrap;
+	display: inline-block;
+	padding: 20px;
+	margin: 20px;
 }
 
 .search::-webkit-input-placeholder {
@@ -37,6 +46,7 @@
 }
 
 .pac-container { 
+	z-index: 10;
 	margin-top: 5px;
 	border: none; 
 	background: #fff; 

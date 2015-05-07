@@ -1,9 +1,13 @@
 var nodes;
 var edges;
-var container = document.getElementById('searchNetwork');
+var container = document.getElementById('result');
 var data;
 var options;
 var network;
+var callbacks;
+var properties;
+var count;
+var clicked;
 var refreshed = false;
 function initializeGraph(){
 	if (refreshed){
@@ -23,9 +27,43 @@ function initializeGraph(){
 		height: '100%'
 	};
 	network = new vis.Network(container, data, options);
+	callbacks = {};
+	properties = {};
+	count = 0;
+	network.on('click', function(data){
+		var id = data['nodes'];
+		clicked = id;
+		if (callbacks[id]!=undefined){
+			callbacks[id](properties[id]);
+			callbacks[id] = undefined;
+		}
+	});
+
 	refreshed = true;
 
 }
+
+function addNode(label, data, callback){
+	console.log(count);
+	var id = ++count;
+	nodes.add([
+			{id: id, 
+				label: label,
+		color: randomColor({luminosity: 'light'}),
+		shape: 'box',
+		fontSize: 20}
+		]);
+	data['nodeId'] = id;
+	data['label'] = label;
+	data['parent'] = clicked;
+	callbacks[count] = callback;
+	properties[id] = data;
+	return id;
+}
+
+
+
+
 var city = "";
 function addCityNode(label){
 	city = label;

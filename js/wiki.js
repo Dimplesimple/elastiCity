@@ -1,3 +1,21 @@
+function wiki(){
+	var par = clicked;
+	edges.add([{
+			from: clicked,
+			to: addNode("Trivia","",function(){
+				var city = properties[par]['label'];
+				BootstrapDialog.show({
+            				title: city,
+            				message: getWikiData(properties[par]['label'])
+        			});
+			
+			})
+	}]);
+	
+
+}
+
+
 function createCORSRequest(method, url) {
   var xhr = new XMLHttpRequest();
   if ("withCredentials" in xhr) {
@@ -25,6 +43,7 @@ function createCORSRequest(method, url) {
 
 
 var getWikiData = function(location) {
+	return location + "is cool";
     var xmlHttp = null;
     xmlHttp = new XMLHttpRequest();
     xmlHttp.open( "GET", 'http://himal.cs-i.brandeis.edu/elastiCity/wiki.php?location='+location, false );

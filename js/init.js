@@ -1,7 +1,6 @@
 $(window).load(function() {
-	$('#result').hide();
-	$('.bottom').hide();
 	$('body').fadeIn(300);
+	$.get('menu.html', function(data){$('#menu').append(data)});
 });
 
 

@@ -1,16 +1,27 @@
-var reset = function(){
-	graphReset();
-	// initial();
+$('#search').keyup(function(){
+	clearLanding();
+});
+
+
+setUpAutocomplete('search', function(data){
+	var name = data['name'];
+	var lg = data['lg'];
+	var lt = data['lt'];
+	console.log(lg);
+	load(name,lg,lt);
+});
+
+function clearLanding(){
+	$('#search').removeClass('vertical-center');
+	$('.top').hide();
+	$('.bottom').fadeIn(300);
+	$('#result').fadeIn(300);
 }
 
-var name;
-var lg;
-var lt;
-
-// var map = function(){
-// 	drawMap(lg,lt);
-
-// };
+function bottom(){
+	$.get('menu.html', function(data){$('#menu').append(data)});
+}
+/*
 
 function show(ele){
 	
@@ -97,15 +108,8 @@ $('#city-search').keyup(function(){
 	clearLanding();
 });
 
-function clearLanding(){
 
-	$('#search-space').removeClass('vertical-center');
-	$('#search-space').addClass('form-group-top');
-	$('.top').hide();
-	$('.bottom').fadeIn(300);
-	$('#result').fadeIn(300);
-
-}
+*/
 
 
 
